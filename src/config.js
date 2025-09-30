@@ -6,10 +6,10 @@ const loki = {
 }
 
 const endpoints = {
-  "/my/doh/path": {
+  "/onboarding/welcome": {
     dohProviders: [
       {
-        host: "dns11.quad9.net",
+        host: "dns.google",
         path: "/dns-query",
       },
       {
